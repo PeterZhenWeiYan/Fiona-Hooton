@@ -1,0 +1,86 @@
+/* Initialize style */
+html, body, p, img, ul, li, span, form, input, textarea, button, label, a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  color: #000;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Custom style */
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.cl::after {
+  content: "";
+  clear: both;
+  display: block;
+  visibility: hidden;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 20px 0;
+}
+
+.header .logo {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.header .menu {
+  margin-top: 15px;
+}
+
+.header .menu ul li {
+  float: left;
+}
+
+.header .menu ul li a {
+  display: block;
+  padding: 0 18px;
+  font-size: 20px;
+}
+
+.adv img {
+  width: 100%;
+  display: block;
+  height: 620px;
+  object-fit: cover;
+}
+
+.about {
+  padding: 30px 0;
+}
+
+.about .title {
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 20px;
+  margin-bottom: 18px;
+}
