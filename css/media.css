@@ -1,0 +1,55 @@
+@media screen and (max-width: 765px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .logo {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 12px 0;
+  }
+  .menu {
+    margin-bottom: 10px;
+  }
+  .menu ul {
+    text-align: center;
+  }
+  .menu ul li {
+    display: inline-block;
+  }
+  .menu ul li a {
+    font-size: 22px;
+    padding: 0 10px 5px;
+  }
+  .menu ul li a:hover, .menu ul li a.active {
+    color: #1d9ff9;
+  }
+  .about .title {
+    font-size: 30px;
+    margin-bottom: 8px;
+  }
+  .about ul {
+    background-color: rgba(162, 202, 234, 0.2);
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  .about ul li {
+    padding: 4px 0;
+  }
+  .about .desc {
+    text-indent: 2em;
+    margin-bottom: 10px;
+  }
+  .about .desc .more {
+    display: block;
+    width: 200px;
+    border: 1px solid #333;
+    padding: 8px 0;
+    margin-top: 20px;
+  }
+  .footer {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+}
