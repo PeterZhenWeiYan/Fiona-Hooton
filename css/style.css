@@ -5,13 +5,15 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
   color: #000;
 }
 
-ul, li {
+ul,
+li {
   list-style: none;
 }
 
@@ -119,6 +121,46 @@ img {
   }
   .about .content h3 {
     margin-bottom: 10px;
+  }
+  .contact {
+    padding: 30px 0;
+  }
+  .contact .title {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .contact .form .item {
+    margin-bottom: 20px;
+  }
+  .contact .form .item label {
+    display: inline-block;
+    width: 200px;
+    float: left;
+  }
+  .contact .form .item .ipt {
+    width: 450px;
+    height: 45px;
+    padding: 0 6px;
+    border: 1px solid #999;
+  }
+  .contact .form .item textarea {
+    width: 1000px;
+    height: 180px;
+    padding: 6px;
+    border: 1px solid #999;
+  }
+  .contact .form .btns {
+    margin-left: 200px;
+  }
+  .contact .form .btns button {
+    width: 135px;
+    height: 45px;
+    font-size: 18px;
+    margin-right: 30px;
+  }
+  .contact .form .btns button:nth-child(1) {
+    background-color: #1d9ff9;
+    color: #f5f5f5;
   }
 }
 
